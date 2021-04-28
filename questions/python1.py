@@ -60,7 +60,15 @@ def one(input1, input2):
 	# No hints for this question
 
 def two(arg1):
-	return "null"
+    arg1=(input)
+    if arg1%3:
+        print('Fizz')
+    if arg1%5:
+        print('Buzz')
+    if arg1%3 and arg1%5:
+        print('fizzbuzz')
+    else:
+      return "null"
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
