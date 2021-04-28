@@ -87,8 +87,13 @@ two(3)
 
 	# How do we ignore case in a String? help(str) may offer some insight.
 
-def three(input):
-    return 0
+def three(x):
+    count = 0
+    x = 0
+    for char in x:
+        if char.lower() in "aeiou":
+            x = x + 1
+            return x
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
