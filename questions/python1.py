@@ -88,12 +88,12 @@ two(3)
 	# How do we ignore case in a String? help(str) may offer some insight.
 
 def three(x):
-    count = 0
-    x = 0
-    for char in x:
-        if char.lower() in "aeiou":
-            x = x + 1
-            return x
+    x = input('word?')
+    vowels = 0
+    for input in x:
+        if (i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u'):
+            vowels = vowels + 1
+            print (vowels)
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
