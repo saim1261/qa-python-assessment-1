@@ -59,16 +59,16 @@ def one(input1, input2):
 
 	# No hints for this question
 
-def two(arg1):
-    arg1=(input)
-    if arg1%3:
+def two(int):
+    if int % 3:
         print('Fizz')
-    if arg1%5:
+    if int % 5:
         print('Buzz')
-    if arg1%3 and arg1%5:
+    if int % 3 and int % 5:
         print('fizzbuzz')
     else:
-      return "null"
+        return "null"
+
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
